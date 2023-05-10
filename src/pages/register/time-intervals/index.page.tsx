@@ -88,7 +88,7 @@ export default function TimeIntervals() {
     control,
   });
 
-  const weekDays = getWeekDays();
+  const weekDays = getWeekDays({ short: false });
 
   const intervals = watch('intervals');
 
